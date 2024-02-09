@@ -13,14 +13,15 @@
             <nav>
                 <img src="images/Heading-removebg-preview.png" class="logo">
                 <ul>
-                    <li><a href="#"> Home </a></li>
-                    <li><a href="#"> About </a></li>
-                    <li><a href="#"> Services </a></li>
-                    <li><a href="#"> Portfolio </a></li>
-                    <li><a href="#"> Contact </a></li>
-                    <i class="fa-solid fa-xmark"></i>
+                    <li><a href="#header"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#service"> Services </a></li>
+                    <li><a href="#portfoliyo"> Portfolio </a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                    <li><a href="#project"> Project </a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
 
             <div class="header-text">
@@ -50,14 +51,15 @@
                         <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
                         <p class="tab-links" onclick="opentab('experience')"> Experience </p>
                         <p class="tab-links" onclick="opentab('education')"> Education </p>
+                        <p class="tab-links" onclick="opentab('certificates')"> Certificates</p>
 
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span> Web Devlopment </span> <br> Designing Web interface </li>
-                            <li><span> Python </span> <br> Designing Web interface </li>
-                            <li><span> Web Designing </span> <br> Designing Web interface using Html Css  </li>
-                            <li><span> App Devlopment </span> <br> Building Android App </li>
+                            <li><span> Python </span> <br> Basic knowledge </li>
+                            <li><span> IOT </span> <br>  Basic knowledge of IOT  </li>
+                            <li><span> ChatGpt </span> <br> Working knowledge </li>
                         </ul>
                     </div>
 
@@ -72,16 +74,33 @@
                     <div class="tab-contents" id="education">
                         <ul>
                            
-                            <li><span> Currantly pursuing </span> <br> LJ Institute </li>
-                            <li><span> 2021 </span> <br> HSC board  </li>
-                            <li><span> 2019 </span> <br> SSC board  </li>
+                            <li><span> 2021-2025 (Currently Pursuing) </span> <br> BE/B.Tech <br> LJ Institute Of Engineering and Technology  </li>
+                            <li><span> 2021 (Completed)</span> <br> HSC board <br>Kameshwar Vidyalaya </li>
+                            <li><span> 2019 (Completed) </span> <br> SSC board <br> Gyanjyot Public School  </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certificates"> 
+                        <ul>
+                            <li>
+                                <span> Coursera certified courses of:- </span> <br> HTML, CSS, and Javascript for Web Developers by Johns Hopkins University
+                                <br> Data Structures by University of California San Diego
+                                <br> Algorithmic Thinking (Part 1) by Rice University
+                                <br> Algorithmic Thinking (Part 2) by Rice University
+                                <br> Exploratory Data Analysis for Machine Learning by IBM
+                                <br> C for Everyone: Programming Fundamentals by University of California, Santa Cruz
+                                <br> The Complete Python Bootcamp From Zero to Hero in Python by udemy
+                    
+                            </li>
                         </ul>
                     </div>
             </div>
         </div>
     </div>
 </div>
+<!-- ------------services------------------ -->
 
+<div id="service">
 <div class="services">
     <div class="container">
         <h1 class="sub-title"> My Services </h1>
@@ -114,6 +133,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <!-- ---------- Portfoliyo------------ -->
@@ -162,6 +182,79 @@
     </div>
 </div>
 
+<!-- ----------------------Project------------------ -->
+
+<div id="project">
+    <div class="container">
+        <div class="sub_p_name"> Projects Made By Me </div>
+            <div class="p_work_list">
+                <div class="p_work">
+                    <img src="images/p1.jpg">
+                    <div class="p_layer"> <br>
+                        <h3> Telegram ChatBot using Python </h3> 
+                        <a href="https://github.com/devbhavsar180/Telegram_chatBot">  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+                <div class="p_work">
+                    <img src="images/p2.png">
+                    <div class="p_layer"> <br>
+                        <h3> Portfoliyo Website using FSD </h3> 
+                        <a href="https://github.com/devbhavsar180/PORTFOLIO_ME">  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+                <div class="p_work">
+                    <img src="images/p3.jpg">
+                    <div class="p_layer"> <br>
+                        <h3> Egg Catcher game using Python </h3> 
+                        <a href="https://github.com/devbhavsar180/egg_catcher">  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+                <div class="p_work">
+                    <img src="images/p4.jpg">
+                    <div class="p_layer"> <br>
+                        <h3> Amazon clone using FSD </h3> 
+                        <a href="https://github.com/devbhavsar180/Amazon-simple-clo">  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+                <div class="p_work">
+                    <img src="images/p5.jpg">
+                    <div class="p_layer"> <br>
+                        <h3> Supermarket Management using Python </h3> 
+                        <a href="#">  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+                <div class="p_work">
+                    <img src="images/p6.png">
+                    <div class="p_layer"> <br>
+                        <h3> Expense Tracker using FSD </h3> 
+                        <a href="https://github.com/devbhavsar180/Expense-Tracker">  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+                <div class="p_work">
+                    <img src="images/p7.jpg">
+                    <div class="p_layer"> <br>
+                        <h3> 0/1 Knapsack using Python </h3> 
+                        <a href="https://github.com/devbhavsar180/0-1-Knapsack-Using-Python">  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+
+                <div class="p_work">
+                    <img src="images/p8.jpg">
+                    <div class="p_layer"> <br>
+                        <h3> Food delivery using FSD </h3> 
+                        <a href="https://github.com/devbhavsar180/Food-Delivery">  <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
 <!-- -------------contact----------------- -->
 
 
@@ -184,20 +277,23 @@
             </div>
 
             <div class="contact-right">
-                <form>
+                <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
                     <button type="submit" class="btn btn2"> Submit </button>
                 </form>
+                <span id="msg"> Hello </span>
             </div>
-
+ 
         </div>
     </div>
     <div class="copyright">
-        <p> Copyright <i class="fa-regular fa-copyright"></i> @Dev Bhavsar Made With <i class="fa-solid fa-heart"></i> </p>
+        <p> Copyright <i class="fa-regular fa-copyright"></i> Dev Bhavsar Made With <i class="fa-solid fa-heart"></i> </p>
     </div>
 </div>
+
+
 
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
@@ -216,5 +312,36 @@
     }
 </script>
 
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw3boiv5_8sg1oKP9BSb9eGQ-LVD3yJfjr1hJj_XM_Ljhsap3SKI-HZqSPkUNEhL_BHgA/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </body>
 </html>
